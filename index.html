@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="wrapper">
+ <div id="box">
+  <h4 class="text-center">Pomodoro Clock</h4>
+  <hr>
+  <div id="screen">
+	  <h3 id="minutesScreen"></h3>
+	  <h3 id="colonSymbol">&nbsp:&nbsp</h3>
+	  <h3 id="secondsScreen"></h3>
+  </div>
+  <div id="startDiv">
+   <button class="btn btn-link" id="startBtn">Start</button>
+  </div>
+  <hr>
+  <div class="settingDiv">
+   <button class="settings btn" id="breakPlus">+</button>
+	  <h5>Break  :&nbsp&nbsp <h5  id="breakVal">5</h5></h5>
+   <button class="settings btn" id="breakMinus">-</button>
+  </div>
+  <div class="settingDiv">
+   <button class="settings btn" id="lengthPlus">+</button>
+   <h5>Length :&nbsp <h5  id="lengthVal">25</h5></h5>
+   <button class="settings btn" id="lengthMinus">-</button>
+  </div>
+ </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
