@@ -137,7 +137,7 @@ function startClock() {
   	cycleNumber++;
   	if(cycleNumber%2==0)
   	{
-  	if(cycleNumber%4==0)
+  	if(cycleNumber%8==0)
   	minutes = longBreak;
   	else
   	minutes = shortBreak;
